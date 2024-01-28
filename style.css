@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #303030;
+}
+.app{
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 4px;
+    padding: 30px;
+}
+
+.qh{
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
+    padding-bottom: 15px; 
+    border-bottom: 1px solid #333;
+}
+.timer{
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+    padding-bottom: 15px;
+    float: right;
+    
+}
+.quiz{
+    padding: 20px 0;
+}
+.question_no{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+    padding-bottom: 15px;
+    white-space: pre-line;
+}
+#question-image{
+    max-width: 50%; /* Set a maximum width for the images */
+    height: auto; 
+    padding-bottom: 20px;
+}
+#question{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+    padding-bottom: 15px;
+    white-space: pre-line;
+}
+.btn{
+    background: #fff;
+    color: #000;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 17px;
+    cursor: pointer;
+    transition: 0.;
+    #btn_1{
+        background: #FFF6C5;
+    }
+}
+.btn:hover:not([disabled]){
+    background-color: #222;
+    color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+label {
+    font-size: 18px;
+    display: block; /* Display the label on a new line */
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+footer{
+    height: 60px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    border-top: 1px solid #333;
+    padding-top: 25px;
+}
+footer .completed_questions span{
+    display: flex;
+    user-select: none;
+}
+footer .completed_questions span p{
+    font-weight: 500;
+    padding: 0 5px;
+}
+footer .completed_questions span p:first-child{
+    padding-left: 0px;
+}
+footer .align{
+    text-align: right;
+}
+#next-btn{
+    background: #557AFD;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    border-radius: 17px;
+    border-radius: 17px;
+    cursor: pointer;
+    display: block;
+    border: 1px solid #222;
+}
+.select{
+    background: #1f8cf9c1;
+}
